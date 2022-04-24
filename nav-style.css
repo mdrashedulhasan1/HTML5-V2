@@ -1,0 +1,31 @@
+nav{
+    height: 50px;
+    background-color: rgb(183, 197, 210);
+}
+nav ul li{
+    list-style: none;
+  
+    padding: 10px 20px;
+    line-height: 30px;
+}
+nav>ul>li{
+    float: left;
+}
+nav ul li:hover{
+    background-color: blueviolet;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.dropdown{
+    display: none;
+}
+
+nav ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 0;
+}
